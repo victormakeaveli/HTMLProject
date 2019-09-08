@@ -1,0 +1,303 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+                        /* FIM CSS RESET */ 
+
+
+body {
+        background-color: #CC0001;
+
+    }
+
+.container {
+        display: block;
+        margin: 0% 1% 1% 1%;
+    }    
+#logo {
+        display: block;
+        float: left;
+    }
+                        /* Título Principal*/
+
+.bloco-titulo{
+        border:7px outset Black;
+        padding: 17px;
+        background-color: Black;
+        border-radius: 10px;
+        width: auto;
+        margin-left: 404px;    
+        position: relative;
+        top: 150px;
+    }
+
+.titulo { 
+        font-family: "Stencil Std", fantasy;
+        font-size:38px;
+        letter-spacing: 1.5px;
+        font-weight: bold;
+        text-align: center;
+        color:#FFD700;
+    }
+
+.clearfix {
+        overflow: auto;
+    }
+
+                        /*Fontes*/
+
+.fonte1 {
+        font-family: "Didot", Serif;
+        font-weight: bold;
+        font-size: 18px;
+        text-align: center ;
+        color: #FFD700;
+        letter-spacing: 0.7px;
+    }
+.type19 {
+        font-family: "Didot", Serif;
+        color: BLACK;
+        font-weight: bold;
+        font-size: 24px;
+        letter-spacing: 0.7px;
+        text-shadow: 3.5px 2.3px 5.5px #FFD700;
+        padding: 105px 35px 80px 30px;
+        text-align: center;
+    }
+.typeblococentral {
+        font-family: "Didot", Serif;
+        font-weight: bold;
+        font-size: 18px;
+        letter-spacing: 0.7px;
+        color: #FFD700;
+        text-align: center ;
+        text-shadow: 9px 7px 5px #FFD700;
+    }
+#enfase1 {
+        text-shadow: 6px 4px 3.5px gray;
+        font-weight: bold;
+    }
+#enfase2 {
+        text-shadow: 3px 2px 1px red;
+    }
+
+                      /*botão*/ 
+
+.button {
+        background-color: #FFD700;
+        border: none;
+        border-radius: 5.5px;
+        font-family: "Stencil Std", fantasy;
+        font-size: 38px;
+        font-weight: bold;
+        text-align: center;
+        letter-spacing: 1.5px;
+        color: black;
+        cursor: pointer;
+        transition-duration: 0.4s;
+    }
+.button:hover {
+        background-color: #CC0001;
+        color: Black;
+    }
+.button:active {
+        background-color: White;        
+        cursor: not-allowed;
+    }
+
+
+                        /*barra de navegação*/
+                    
+.barradnav {
+        border: 4px inset Black;
+        background-color: Black;
+        border-radius: 10px;
+        height: 31px;
+        /*margin: 0% 2% 0% 2%; */
+        clear: left;
+        padding: 5px;
+        overflow: hidden;
+    }
+.barradnav a {
+        text-decoration: none;       
+        float: left;
+        display: block;
+        color: #FFD700;
+        padding: 8px 16px;
+        border-radius: 10px;
+        margin-left: 13.8%;   
+    }
+.barradnav a:hover {
+        background-color: #CC0001;
+        color: black;
+    }
+.barradnav a.ativo {
+        background-color: #CC0001;
+        color: white;
+    }
+
+                        /*blocos*/
+.blocodireito {
+        background-image: url("imagens/eaglevsbear.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        border-radius: 10px;        
+        float: right;
+        width: 25%;
+        margin-top: 1%;
+        line-height: normal;
+    }
+.blococentral {
+        background-color: rgb(43, 43, 43);
+        border-radius: 10px;
+        margin-top: 1%;
+        float: left;
+        width: 71%;
+        padding: 20px;
+    }   
+.blococentral2 {
+        background-color: rgba(29, 29, 29, 0.65);
+        border-radius: 10px;
+        margin-top: 2%;
+        margin-bottom: 11%;
+        float: center;
+        width: auto;
+        padding: 5px;
+        font-family: "Didot", Serif;
+        text-align: center;
+        color: black;
+        font-weight: bold;
+        font-size: 26px;
+        letter-spacing: 0.4px;
+        text-shadow: 2.5px 1.5px 2px #FFD700;
+    }
+.blococentraldedica {
+        background-color: rgba(29, 29, 29, 0.65);
+        border-radius: 12px;
+        border: normal; 
+        width: 750px;
+        margin: auto;
+        padding: 10px;       
+        margin-top: 4%;
+    }
+.blocodeimagem {
+        background-color: white;
+        border-radius: 5px;
+        display: block;
+        position: center;
+        min-width: 400px;
+        max-width: 500px;
+        padding: 5px;
+        margin: auto;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+.tabela {
+        background-color: #f8f9fa;
+        color: #222;
+        margin: 1em 0;
+        border: 1px solid #a2a9b1;
+        border-collapse: collapse;
+        text-align: center;
+        display: table-row;
+    }      
+                         /*нераскрытым*/
+
+.нераскрытым {
+        display: block;
+        margin-top: 1.7%;
+        margin-right: auto;
+        margin-left: auto;
+        width:  43.350%;
+    }
+.нераскрытымbloco {
+        display: block;
+        margin: 2% 6% 2% 6%;
+        position: relative;
+        color: white;
+        text-align: center;
+        text-shadow: 2px 2px 3px gray;
+        float: center;
+        line-height: normal;
+    }
+.нераскрытымchurchill {
+        border-radius: 15px;
+        background-color:;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        margin-right: auto;
+        margin-left: auto;
+        width: 356.8px;
+    }
+.нераскрытымblocodireito {        
+        float: right;
+        text-align: center;
+        line-height: normal;
+        margin-top: 18%;
+        margin-right: 164px;
+        position: relative;
+    }
+.нераскрытымbutton { 
+        position: relative;
+        display: block;
+        border: none;
+        margin: auto;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 3%;
+        margin-bottom: 7%;
+        width: 165px;
+        height: 165px;
+        background-color: transparent;
+        background-image: url("imagens/laikabadge.png");
+        opacity: 0.57;
+        transition: 0.4s;
+        cursor: pointer;
+    }
+.нераскрытымbutton:hover {
+        opacity: 1;
+        
+    }
+                    /*Rodapé*/
