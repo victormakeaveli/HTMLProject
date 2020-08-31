@@ -42,13 +42,7 @@ table {
     border-spacing: 0;
 }
 
-                        /* FIM CSS RESET */ 
-
-
-body {
-        background-color: #CC0001;
-
-    }
+                        /* FIM CSS RESET */
 
 .container {
         display: block;
@@ -57,22 +51,24 @@ body {
 #logo {
         display: block;
         float: left;
+	margin-botton: inherit;
     }
                         /* Título Principal*/
 
 .bloco-titulo{
-        border:7px outset Black;
-        padding: 17px;
-        background-color: Black;
-        border-radius: 10px;
+        border:4.5px outset Black;
+        padding: 15px;
+        background-color: Transparent;
+        border-radius: 23px;
         width: auto;
-        margin-left: 404px;    
+        margin-left: 450px;    
         position: relative;
         top: 150px;
+	margin-right: inherit;
     }
 
 .titulo { 
-        font-family: "Stencil Std", fantasy;
+        font-family: "Didot", Serif;
         font-size:38px;
         letter-spacing: 1.5px;
         font-weight: bold;
@@ -127,7 +123,7 @@ body {
         background-color: #FFD700;
         border: none;
         border-radius: 5.5px;
-        font-family: "Stencil Std", fantasy;
+        font-family: "Didot", Serif;
         font-size: 38px;
         font-weight: bold;
         text-align: center;
@@ -149,14 +145,14 @@ body {
                         /*barra de navegação*/
                     
 .barradnav {
-        border: 4px inset Black;
-        background-color: Black;
-        border-radius: 10px;
-        height: 31px;
+        border: 4.5px inset Black;
+        background-color: Transparent;
+        border-radius: 15px;
+        height: 35px;
         /*margin: 0% 2% 0% 2%; */
-        clear: left;
-        padding: 5px;
-        overflow: hidden;
+        clear: both;
+        padding: 3px;
+        overflow: auto;
     }
 .barradnav a {
         text-decoration: none;       
